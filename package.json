@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-wasabi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wasabi provider for strapi upload",
   "homepage": "http://strapi.io",
   "keywords": [
@@ -24,19 +24,17 @@
     "name": "Daniel Sieradski",
     "url": "https://self.agency"
   },
-  "maintainers": [
-    {
-      "email": "daniel@self.agency",
-      "name": "Daniel Sieradski",
-      "url": "https://self.agency"
-    }
-  ],
+  "maintainers": [{
+    "email": "daniel@self.agency",
+    "name": "Daniel Sieradski",
+    "url": "https://self.agency"
+  }],
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://bitbucket.org/selfagency/strapi-provider-upload-wasabi.git"
   },
   "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+    "url": "https://bitbucket.org/selfagency/strapi-provider-upload-wasabi/issues"
   },
   "engines": {
     "node": ">= 10.0.0",
