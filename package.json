@@ -25,17 +25,19 @@
     "name": "Daniel Sieradski",
     "url": "https://self.agency"
   },
-  "maintainers": [{
-    "email": "daniel@self.agency",
-    "name": "Daniel Sieradski",
-    "url": "https://self.agency"
-  }],
+  "maintainers": [
+    {
+      "email": "daniel@self.agency",
+      "name": "Daniel Sieradski",
+      "url": "https://self.agency"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/selfagency/strapi-provider-upload-wasabi"
+    "url": "https://gitlab.com/selfagency/strapi-provider-upload-wasabi"
   },
   "bugs": {
-    "url": "https://bitbucket.org/selfagency/strapi-provider-upload-wasabi/issues"
+    "url": "https://gitlab.com/selfagency/strapi-provider-upload-wasabi/issues"
   },
   "engines": {
     "node": ">= 10.0.0",
