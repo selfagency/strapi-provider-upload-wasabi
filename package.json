@@ -1,7 +1,7 @@
 {
   "name": "strapi-provider-upload-wasabi",
-  "version": "0.3.1",
-  "description": "Wasabi provider for strapi upload",
+  "version": "0.4.0",
+  "description": "Wasabi provider for Strapi upload",
   "homepage": "http://strapi.io",
   "keywords": [
     "upload",
@@ -14,7 +14,8 @@
   },
   "main": "./lib",
   "dependencies": {
-    "knox": "^0.9.2"
+    "aws-sdk": "^2.619.0",
+    "bluebird": "^3.7.2"
   },
   "strapi": {
     "isProvider": true
@@ -44,6 +45,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "flatted": "^2.0.0"
+    "consola": "^2.11.3",
+    "dotenv": "^8.2.0",
+    "flatted": "^2.0.0",
+    "proxy-agent": "^3.1.1"
   }
 }
